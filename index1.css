@@ -1,0 +1,134 @@
+body{
+    font-family: 'inter';
+}
+.flaxbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 60%;
+}
+.nevtext{
+    font-size: 16px;
+    left: 70%;
+    display: flex;
+    gap: 30px;
+    font-weight: 700;
+    margin-left: 700px;
+}
+.nevtext .nevactive{
+    color: red;
+}
+.button2{
+    position: absolute;
+    top: 13%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:brown;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    text-align: center;
+}
+.nevactive{
+    color: rgb(255, 0, 0);
+
+}
+.slidder{
+    margin: 0px 60px 60px 60px;
+}
+.navacative{
+    top: 40%;
+    border-left-width: 50px;
+}
+.slidder img{
+    text-align: center;
+    object-fit: cover;
+    width: 1250px;
+    height: 344px;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 79%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:brown;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    text-align: center;
+}
+.search{
+    position: absolute;
+    top: 24%;;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: D9D9D9;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    text-align: center;
+
+}
+.search {
+    font-optical-sizing: 0.5%;
+    font-size: 20px;
+    font-weight: 600;
+    top: 91px;
+    width: 729px;
+    height: 32px;
+    padding: 1px;
+    border: 5px solid gray;
+    margin: 10px;
+    left: 51%;
+}
+.producttb{
+    margin-right: 46px;
+    background-color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: -18px;
+    gap: 32px;
+}
+
+.Product{
+    left: 70%;
+    display: flex;
+    gap: 61px;
+    font-weight: 700;
+}
+.Product1{
+    background-color: rgb(0, 0, 0);
+    padding: 7px;
+    border-radius: -18px;
+
+}
+.Product1{
+    left: 70%;
+    display: flex;
+    gap: 131px;
+    font-weight: 700;
+}
+.name{
+    size: 24px;
+    text-align: center;
+    left: 70%;
+    display: flex;
+    gap: 32px;
+    font-weight: 700;
+}
+.productb{
+    text-align: center;
+    gap: 131px;
+    font-weight: 700px;
+}
